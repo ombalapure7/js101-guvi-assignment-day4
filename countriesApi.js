@@ -35,7 +35,8 @@ const getAllCountries = () => {
       name: country.name,
       region: country.region,
       population: country.population,
-      subregion: country.subregion
+      subregion: country.subregion,
+      population: country.population
     }));
 
     for (const country of countries) {
